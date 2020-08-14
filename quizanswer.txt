@@ -1,0 +1,58 @@
+Project 1
+
+STORE "hour" with any value
+STORE "second" without any value
+
+CALCULATE "hour" times 7200
+SET "second" with calculation result
+DISPLAY "second"
+
+
+
+
+Project 2
+
+STORE "input_1" with any value
+STORE "input_2" with any value
+
+IF "input_1" > "input_2"
+    DO DISPLAY "input_1"
+ELSE IF "input_2" > "input_1"
+    DO DISPLAY "input_2"
+ELSE
+    DO DISPLAY "input_2"
+
+
+
+
+Project 3
+
+SET "numberOfTraveler" with any value
+SET "ticketPrice" with any value
+SET "oneWay" with boolean value
+SET "twoWays" with boolean value
+SET "totalPayment"
+
+CALCULATE "numberOfTraveler" times "ticketPrice"
+SET "totalPayment" with calculation result
+DISPLAY "totalPayment"
+
+
+
+
+
+Project 4
+
+SET "N" with any value
+SET "initialValue" with 0
+SET "array" without value
+
+while "initialValue" <= "N"
+    APPEND "initialValue" to "array"
+    CALCULATE "initialValue" plus 1
+end
+
+DISPLAY "array"
+
+ 
+ 
